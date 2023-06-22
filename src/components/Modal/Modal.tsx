@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Modal.scss"
+import "./Modal.css"
 type Props = {
     setIsOpen: Function ;
     content?: string;
