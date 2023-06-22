@@ -23,7 +23,12 @@ jobs:
           node-version: 16.x
           registry-url: https://npm.pkg.github.com/
           scope: '@eiks-exe'
+      - name: Authenticate with the GitHub Package Registry
+              run:
+                echo "//npm.pkg.github.com:_authToken=${{ secrets.GITHUB_TOKEN }}" >
+                ~/.npmrc      
       - run: npm ci
+      - run: npm rollup
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GHP_TOKEN}}
