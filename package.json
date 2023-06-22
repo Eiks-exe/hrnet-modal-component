@@ -1,5 +1,5 @@
 {
-    "name": "@31k5/hr-net-modal",
+    "name": "@eiks-exe/hr-net-modal",
     "version": "0.0.1",
     "private": false,
     "author": "31k5",
@@ -7,7 +7,7 @@
     "description": "Modal component for hr-net-front",
     "type": "module",
     "publishConfig": {
-        "@31k5:registry": "https://npm.pkg.github.com"
+        "@eiks-exe:registry": "https://npm.pkg.github.com"
       },
     "scripts": {
         "build": "tsx",
