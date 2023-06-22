@@ -6,6 +6,9 @@
     "license": "MIT",
     "description": "Modal component for hr-net-front",
     "type": "module",
+    "publishConfig": {
+        "@Eiks-exe:registry": "https://npm.pkg.github.com"
+      },
     "scripts": {
         "build": "tsx",
         "rollup": "rollup -c --bundleConfigAsCjs"
