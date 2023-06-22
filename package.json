@@ -1,6 +1,6 @@
 {
-    "name": "@eiks-exe/hr-net-modal",
-    "version": "0.0.1",
+    "name": "@eiks-exe/hrnet-modal-component",
+    "version": "0.0.2",
     "private": false,
     "author": "31k5",
     "license": "MIT",
