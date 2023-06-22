@@ -28,7 +28,7 @@ jobs:
           echo "//npm.pkg.github.com:_authToken=${{ secrets.GITHUB_TOKEN }}" >
           ~/.npmrc      
       - run: npm ci
-      - run: npm rollup
+      - run: npm run rollup
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GHP_TOKEN}}
