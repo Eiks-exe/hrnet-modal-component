@@ -25,7 +25,7 @@ jobs:
           scope: '@eiks-exe'
       - name: Authenticate with the GitHub Package Registry
         run:
-          echo "//npm.pkg.github.com:_authToken=${{ secrets.GHP_TOKEN }}" >
+          echo "//npm.pkg.github.com:_authToken=${{ secrets.GHP_TOKEN }}\n@eiks-exe:registry=https://npm.pkg.github.com/" >
           ~/.npmrc      
       - run: npm ci
       - run: npm run rollup
