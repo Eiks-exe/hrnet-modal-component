@@ -1,3 +1,3 @@
-# hrnet-modal-component*
+# hrnet-modal-component
 
 modal component for hr-net
